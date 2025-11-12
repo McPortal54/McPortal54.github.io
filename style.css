@@ -1,8 +1,80 @@
-h1 {
-  text-align: center;
-  border: 5px double;
-  width: fit-content;
-  margin-inline: auto;
-  border-radius: 30px;
-  padding: 10px;
-}
+ /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      font-size: 1rem;
+      padding: 8px 12px;
+      border-radius: 6px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+    }
+
+    /* Section styling */
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    h1, h2 {
+      margin-bottom: 15px;
+      color: #222;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1.1em;
+    }
+
+    /* Add background for alternate sections */
+    section:nth-child(even) {
+      background-color: #fff;
+    }
+
+    section:nth-child(odd) {
+      background-color: #e9ecef;
+    }
+
+    /* Smooth color fade for transitions */
+    nav, section {
+      transition: all 0.3s ease-in-out;
+    }
