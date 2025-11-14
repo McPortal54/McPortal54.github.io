@@ -1,7 +1,7 @@
 /* Reset */
 img {
- width: auto;
- height: auto;
+ width: 640;
+ height: 480;
 }
     * {
       margin: 0;
