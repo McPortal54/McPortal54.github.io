@@ -1,4 +1,8 @@
- /* Reset */
+/* Reset */
+img {
+ width: auto;
+ height: auto;
+}
     * {
       margin: 0;
       padding: 0;
