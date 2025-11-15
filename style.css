@@ -82,3 +82,7 @@ img {
     nav, section {
       transition: all 0.3s ease-in-out;
     }
+.epi {
+    width: 640px;
+    height: 480px;
+}
