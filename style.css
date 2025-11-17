@@ -52,6 +52,10 @@ img {
       background-color: #555;
     }
 
+ .d2 {
+  width: 640px;
+  height: 480px;
+ }
     /* Section styling */
     section {
       padding: 80px 20px;
