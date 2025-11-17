@@ -97,4 +97,6 @@ img {
 .res {
   width: 800px;
   height: 550px;
+  align-items: center;
+  text-align: center;
 }
