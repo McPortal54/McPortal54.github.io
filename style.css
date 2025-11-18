@@ -74,7 +74,7 @@ img { /*image styleling*/
       font-size: 1.1em;
     }
 
-    /* Add background for alternate sections */
+    /* backgrounds of sections being diff colours */
     section:nth-child(even) {
       background-color: #fff;
     }
@@ -83,7 +83,7 @@ img { /*image styleling*/
       background-color: #e9ecef;
     }
 
-    /* Smooth color fade for transitions */
+    /* fading transitions */
     nav, section {
       transition: all 0.3s ease-in-out;
     }
