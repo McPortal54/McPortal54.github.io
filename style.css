@@ -100,6 +100,11 @@ img { /*image styleling*/
   text-align: center; /* centers inline elements like img */
 }
 
+.mtn {
+  width: 800px;
+  height: 550px;
+  display: inline-block;
+}
 .res {
   width: 800px;
   height: 550px;
