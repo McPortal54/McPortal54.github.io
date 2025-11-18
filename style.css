@@ -87,7 +87,7 @@ img { /*image styleling*/
     nav, section {
       transition: all 0.3s ease-in-out;
     }
-.epi {
+.epi { /*pls update*/
     width: 800px;
     height: 525px;
 }
