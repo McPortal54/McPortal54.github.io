@@ -92,8 +92,9 @@ img {
     height: 480px;
 }
 .d1 {
-    width: 750px;
-    height: 500px;
+  width: 800px;
+  height: 550px;
+  display: inline-block; 
 }
 .img-wrap {
   text-align: center; /* centers inline elements like img */
@@ -102,7 +103,7 @@ img {
 .res {
   width: 800px;
   height: 550px;
-  display: inline-block; /* ensure text-align works */
+  display: inline-block; 
 }
 
 
